@@ -1,0 +1,31 @@
+.titulo{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: rgb(59, 59, 243);
+    margin: 0px auto;
+    max-width: 20%;
+    border-radius: 15px;
+}
+body{
+    background-image: url(img/fondo.jfif);
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card{
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: antiquewhite;
+}
+
+.card-img-bottom{
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0px auto;
+}

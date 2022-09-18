@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funciones.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>CALCULADORA</title>
+</head>
+<body>
+
+    <h1 class="titulo">CALCULADORA</h1>
+    <br>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Universidad De La Costa CUC</h5>
+        Numero 1: <input type="number" name="numero1" id="num1">
+        <br>
+        <br>
+        Numero 2: <input type="number" name="numero2" id="num2">
+        <br>
+        <br>
+        Operaciones: <select name="operaciones" id="ope">
+          <option value="Suma">Suma</option>
+          <option value="Resta">Resta</option>
+          <option value="Multiplicacion">Multiplicacion</option>
+          <option value="Division">Division</option>
+        </select>
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary" name="calcular" onclick="calcular()">Calcular</button>
+        <br>
+        <p id="resultado"></p>
+        <p class="card-text"><small class="text-muted">Con calma rey, mira bien los numeros/opciones</small></p>
+      </div>
+      <img src="img/fantasma.png" class="card-img-bottom" alt="...">
+    </div>
+    
+</body>
+</html>
